@@ -17,6 +17,7 @@ body{
     position: relative;
     display: grid;
     border: 2px solid #111;
+    grid-gap: 2px;
 }
 .calculator .value{
     grid-column: span 4;
@@ -26,6 +27,7 @@ body{
     outline: none;
     padding: 10px;
     font-size: 18px;
+    
 }
 .calculator span{
     display: grid;
